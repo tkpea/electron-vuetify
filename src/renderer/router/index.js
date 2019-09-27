@@ -11,6 +11,11 @@ export default new Router({
       component: require('@/components/LandingPage').default
     },
     {
+      path: '/external-command',
+      name: 'external-command',
+      component: require('@/components/ExternalCommand').default
+    },    
+    {
       path: '*',
       redirect: '/'
     }
