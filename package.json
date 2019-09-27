@@ -22,6 +22,9 @@
     "directories": {
       "output": "build"
     },
+    "extraResources": [
+      "bin/"
+    ],    
     "files": [
       "dist/electron/**/*"
     ],
@@ -49,9 +52,11 @@
     "linux": {
       "icon": "build/icons"
     }
+    
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "child_process": "^1.0.2",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
     "vue-router": "^3.0.1",
