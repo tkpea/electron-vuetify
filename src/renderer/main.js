@@ -11,6 +11,8 @@ if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 Vue.http = Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
+import './plugins/three'
+
 /* eslint-disable no-new */
 new Vue({
   components: { App },

@@ -14,7 +14,12 @@ export default new Router({
       path: '/external-command',
       name: 'external-command',
       component: require('@/components/ExternalCommand').default
-    },    
+    }, 
+    {
+      path: '/dinosaur',
+      name: 'external-command',
+      component: require('@/components/Dinosaur').default
+    },         
     {
       path: '*',
       redirect: '/'
