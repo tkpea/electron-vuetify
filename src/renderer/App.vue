@@ -2,7 +2,7 @@
   <v-app id="inspire">
     <v-navigation-drawer v-model="drawer" app>
       <v-list dense>
-        <v-list-item @click>
+        <v-list-item to="/">
           <v-list-item-action>
             <v-icon>mdi-home</v-icon>
           </v-list-item-action>
@@ -10,12 +10,20 @@
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item @click>
+        <v-list-item to="external-command">
           <v-list-item-action>
             <v-icon>mdi-contact-mail</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>Contact</v-list-item-title>
+            <v-list-item-title>External Command</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item to="dinosaur">
+          <v-list-item-action>
+            <v-icon>mdi-contact-mail</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>Dinosaur</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -28,11 +36,7 @@
 
     <v-content>
       <v-container class="fill-height" fluid>
-        <v-row align="center" justify="center">
-          <v-col class="text-center">
-            <router-view></router-view>
-          </v-col>
-        </v-row>
+        <router-view></router-view>
       </v-container>
     </v-content>
     <v-footer color="indigo" app>

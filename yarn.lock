@@ -2016,6 +2016,11 @@ change-case@^3.1.0:
     upper-case "^1.1.1"
     upper-case-first "^1.1.0"
 
+child_process@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/child_process/-/child_process-1.0.2.tgz#b1f7e7fc73d25e7fd1d455adc94e143830182b5a"
+  integrity sha1-sffn/HPSXn/R1FWtyU4UODAYK1o=
+
 chokidar@^2.0.2, chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -4356,6 +4361,14 @@ import-local@2.0.0, import-local@^2.0.0:
   dependencies:
     pkg-dir "^3.0.0"
     resolve-cwd "^2.0.0"
+
+imports-loader@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/imports-loader/-/imports-loader-0.8.0.tgz#030ea51b8ca05977c40a3abfd9b4088fe0be9a69"
+  integrity sha512-kXWL7Scp8KQ4552ZcdVTeaQCZSLW+e6nJfp3cwUMB673T7Hr98Xjx5JK+ql7ADlJUvj1JS5O01RLbKoutN5QDQ==
+  dependencies:
+    loader-utils "^1.0.2"
+    source-map "^0.6.1"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -7984,6 +7997,16 @@ terser@^4.1.2:
     source-map "~0.6.1"
     source-map-support "~0.5.12"
 
+three@^0.105.2:
+  version "0.105.2"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.105.2.tgz#d135f1549bdcf5a9acd904ba3dbf9198a0268984"
+  integrity sha512-L3Al37k4g3hVbgFFS251UVtIc25chhyN0/RvXzR0C+uIBToV6EKDG+MZzEXm9L2miGUVMK27W46/VkP6WUZXMg==
+
+three@^0.108.0:
+  version "0.108.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.108.0.tgz#53d26597c7932f214bb43f4655e566d2058143b5"
+  integrity sha512-d1ysIXwi8qTlbmMwrTxi5pYiiYIflEr0e48krP0LAY8ndS8c6fkLHn6NvRT+o76/Fs9PBLxFViuI62iGVWwwlg==
+
 throttleit@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/throttleit/-/throttleit-0.0.2.tgz#cfedf88e60c00dd9697b61fdd2a8343a9b680eaf"
@@ -8401,6 +8424,13 @@ vm-browserify@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
   integrity sha512-iq+S7vZJE60yejDYM0ek6zg308+UZsdtPExWP9VZoCFCz1zkJoXFnAX7aZfd/ZwrkidzdUZL0C/ryW+JwAiIGw==
+
+vue-3d-model@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/vue-3d-model/-/vue-3d-model-1.1.1.tgz#dd03c4d79a4a2d0a7837c99377b98b884bf032f3"
+  integrity sha512-JiFps3Uiho2wHtcapx+WwuTIxGHZXYsrOdG+T9bEy12FtNQcAo/JN58pG+RyChi8DUphnZXBt+XeeZLbeDz/jA==
+  dependencies:
+    three "^0.105.2"
 
 vue-electron@^1.0.6:
   version "1.0.6"
